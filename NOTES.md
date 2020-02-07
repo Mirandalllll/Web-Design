@@ -1,7 +1,7 @@
 # HTML Notes
 ### 01/08/2020 Wed ###
  
-Application: Define structure of message.
+#### Application: Define structure of message.
 1.	HTTP: hypertext transfer protocol. (DEF)
 2.	State of an application: e.g.: user information. Facebook user login. Once login, state create the application for user. Independently request. Have to bond every single request in all information. 
 3.	HTTP client sends a request message to an HTTP server. The server, in turn, returns a response message. HTTP is a pull protocol; the client pulls information from the server. HTTP is a stateless protocol. Negotiate type of response. 
@@ -29,7 +29,7 @@ Application: Define structure of message.
     * Accept: mime – type-1, mime – type -2, … the client can use the accept header to tell the server the MIME types it can handle and it prefers.
     * Accept encoding: telling the server understand the complex data. (dagaiba huiqucha)
     * Cookie: one of the ways to save, maintaining, state the application.  
-    ![](file:///Users/luliu/Desktop/NEU/Web%20Design/图片%201.png)
+    ![](https://github.com/Mirandalllll/Web-Design/raw/master/图片-1.png)
     * Content – Type: value could be any of the MIME types. 
 
 二. 
