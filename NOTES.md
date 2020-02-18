@@ -204,10 +204,10 @@
         3. An attribute value, with opening and closing quote marks wrapped around it.
             
             * href: HTML links are defined with the <a> tag. The link address is specified in the href attribute: <a href="https://www.w3schools.com">This is a link</a>
-            * src: HTML images are defined with the <img> tag. The filename of the image source is specified in the src attribute: <img src="img_girl.jpg">
-            * width & height: HTML images also have width and height attributes, which specifies the width and height of the image: <img src="img_girl.jpg" width="500" height="600">  The width and height are specified in pixels by default; so width="500" means 500 pixels wide.
-            * alt: The alt attribute specifies an alternative text to be used, if an image cannot be displayed. The value of the alt attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a vision impaired person, can "hear" the element. <img src="img_girl.jpg" alt="Girl with a jacket">. The alt attribute is also useful if the image cannot be displayed (e.g. if it does not exist): <img src="img_typo.jpg" alt="Girl with a jacket">. 
-            * style: The style attribute is used to specify the styling of an element, like color, font, size etc. <p style="color:red">This is a red paragraph.</p>
+            * src: HTML images are defined with the <img> tag. The filename of the image source is specified in the src attribute:<!-- <img src="img_girl.jpg">-->
+            * width & height: HTML images also have width and height attributes, which specifies the width and height of the image: <!--<img src="img_girl.jpg" width="500" height="600"> --> The width and height are specified in pixels by default; so width="500" means 500 pixels wide.
+            * alt: The alt attribute specifies an alternative text to be used, if an image cannot be displayed. The value of the alt attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a vision impaired person, can "hear" the element. <!--<img src="img_girl.jpg" alt="Girl with a jacket">-->. The alt attribute is also useful if the image cannot be displayed (e.g. if it does not exist): <!--<img src="img_typo.jpg" alt="Girl with a jacket">. -->
+            * style: The style attribute is used to specify the styling of an element, like color, font, size etc. <!--<p style="color:red">This is a red paragraph.</p>-->
             * lang: 
 
 
@@ -215,7 +215,7 @@
 ### JavaScript DOM
 1. Bubbling: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
     * Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of them:
-    <!doctype html>
+    <!--<!doctype html>
         <body>
             <style>
                 body * {
@@ -229,4 +229,4 @@
     <p onclick="alert('p')">P</p>
     </div>
     </form>
-    </body>
+    </body>-->
