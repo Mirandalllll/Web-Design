@@ -108,8 +108,11 @@
         * The request parameters, in the form of name=value pairs, are separated from the URL by a '?'. The name=value pairs are separated by a '&'.
         * The # (called nameAnchor) identifies a fragment within the HTML document, defined via the anchor tag `<a id="anchorName">.../a> or <a name="anchorName"> ...</a>.`
 18.	Difference b/w URL & URI: 
-
-
+    * A URI is an identifier of a specific resource. Like a page, or book, or a document.
+    * A URL is special type of identifier that also tells you how to access it, such as HTTPs, FTP, etc.—like `https://www.google.com.`
+    * If the protocol (https, ftp, etc.) is either present or implied for a domain, you should call it a URL—even though it’s also a URI.
+    * Basically, being more specific is better, and a “URL” is a specific type of URI that provides an access method/location.
+    ![](https://github.com/Mirandalllll/Web-Design/raw/master/URL.png)
 19.	Response status code: 
     * The first line of the response message contains the response status code. 
     * Status code is a 3-digit number: 
@@ -323,7 +326,7 @@ programming language, making the structural representation of the document avail
     * Events are actions or occurrences that happen in the system you are programming, which the    system tells you about so you can respond to them in some way if desired. For example if the user clicks a button on a webpage, you might want to respond to that action by displaying an information box.
 19. Events Bubbling
     * Bubbling: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
-    * Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them.
+    * Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
     
     ```html
     <!doctype html>
