@@ -212,7 +212,92 @@
             * **width & height**: HTML images also have width and height attributes, which specifies the width and height of the image: `<img src="img_girl.jpg" width="500" height="600">` The width and height are specified in pixels by default; so width="500" means 500 pixels wide.
             * **alt**: The alt attribute specifies an alternative text to be used, if an image cannot be displayed. The value of the alt attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a vision impaired person, can "hear" the element. `<img src="img_girl.jpg" alt="Girl with a jacket">`. The alt attribute is also useful if the image cannot be displayed (e.g. if it does not exist): `<img src="img_typo.jpg" alt="Girl with a jacket">`
             * **style**: The style attribute is used to specify the styling of an element, like color, font, size etc. `<p style="color:red">`This is a red paragraph.`</p>`
-            * **lang**: 
+            * **lang**: The HTML lang attribute is used to identify the language of text content on the web. This information helps search engines return language specific results, and it is also used by screen readers that switch language profiles to provide the correct accent and pronunciation.
+                * The lang attribute takes an ISO language code as its value. Typically this is a two letter code such as “en” for English, but it can also be an extended code such as “en-gb” for British English.
+
+                * The lang attribute must also be used to identify chunks of text in a language that is different from the document’s primary language. For example:
+                ```html
+                <html lang="en">
+                ...
+                <body>
+                <p>This page is written in English.</p>
+                <p lang="fr">Sauf pour ce qui est écrit en mauvais français.</p>
+                </body>
+                </html>
+                ```
+4.  Boolean Attributes
+    * You'll sometimes see attributes written without values — this is perfectly allowed. These are called boolean attributes, and they can only have one value, which is generally the same as the attribute name.
+    `<input type="text" disabled="disabled">`
+    `<input type="text" disabled>` 
+    `<input type="text">`
+
+5. Attributes Coding Style
+    * Attribute values can omit quotes but its a bad code style. It also breaks if there are more than one attribute in the element.
+    * Either single or double quotes can be used. But double quotes are commonly used.
+
+6.  
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>My test page</title>
+        </head>
+    <body>
+        <p>This is my page</p>
+    </body>
+    </html>
+    ```
+7. Entity References
+    * In HTML, the characters <, >,",' and & are special characters. They are parts of the HTML syntax itself, so it cannot be used in the content.
+    `< = &lt;`
+    `> = &gt;`
+    `" = &quot;`
+    `' = &apos;`
+    `& = &amp;`
+        `<p>In HTML, you define a paragraph using the <p> element.</p>`
+        `<p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>`
+8. `<meta>`
+    * Meta tag provides metadata about the page. Common attributes
+        * name
+        * property
+        * content
+        * charset
+        * author
+        * description
+9. `<table>`
+    * Table tag represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+    * Common elements
+        ● tr
+        ● td
+        ● th
+        ● colgroup
+        ● tbody
+        ● thead
+        ● tfoot
+
+10. `<form>`
+    * Table tag represents a document section that contains interactive controls to submit information to a web server.
+    * Attributes
+        * action
+        * method
+    * Common elements
+        * label
+        * input
+        * select
+        * datalist
+        * textarea
+
+11. `<svg>`
+    * Scalable Vector Graphics (SVG) is an XML-based markup language for describing two dimensional based vector graphics. SVG is essentially to graphics what HTML is to text.
+
+12. `<canvas>`
+    * Canvas element can be used to draw graphics via scripting in JavaScript. For example, it can be used to draw graphs, make photo compositions, create animations, or even do real-time video processing or rendering.
+
+13. Web Components
+    * Web Components is a suite of different technologies allowing you to create reusable custom user interface components — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
+ 
+
 
 
 
