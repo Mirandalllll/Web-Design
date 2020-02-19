@@ -298,7 +298,7 @@ programming language, making the structural representation of the document avail
 
 <!--Elements & HTML Elements补充-->
 ----Element----
-![](https://github.com/Mirandalllll/Web-Design/raw/master/element.png)
+![](https://github.com/Mirandalllll/Web-Design/raw/master/Element.png)
 ----HTML ELEMENTS----
 ![](https://github.com/Mirandalllll/Web-Design/raw/master/HTMLElements.png)
 14. Search / Find Node(s)
