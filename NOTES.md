@@ -296,7 +296,7 @@ programming language, making the structural representation of the document avail
     * attribute
     * HTMLCollection
 
-<!--Elements & HTML Elements补充-->
+
 ----Element----
 ![](https://github.com/Mirandalllll/Web-Design/raw/master/Element.png)
 ----HTML ELEMENTS----
@@ -324,6 +324,7 @@ programming language, making the structural representation of the document avail
 19. Events Bubbling
     * Bubbling: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
     * Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them.
+    
     ```html
     <!doctype html>
         <body>
