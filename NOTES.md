@@ -318,29 +318,29 @@ programming language, making the structural representation of the document avail
         * pending: initial state, neither fulfilled nor rejected.
         * fulfilled: meaning that the operation completed successfully. 
         * rejected: meaning that the operation failed.
-    
     ![](https://github.com/Mirandalllll/Web-Design/raw/master/promise.png)
 18. Events
     * Events are actions or occurrences that happen in the system you are programming, which the    system tells you about so you can respond to them in some way if desired. For example if the user clicks a button on a webpage, you might want to respond to that action by displaying an information box.
 19. Events Bubbling
     * Bubbling: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
-    * Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of them:
+    * Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them.
     ```html
     <!doctype html>
-    <body>
-        <style>
-            body * {
-            margin: 10px;
-            border: 1px solid blue;
-            }
-        </style>
-    <form onclick="alert('form')">FORM
-    <div onclick="alert('div')">DIV
-    <p onclick="alert('p')">P</p>
-    </div>
-    </form>
-    </body>
-    ```
+        <body>
+            <style>
+                body * {
+                margin: 10px;
+                border: 1px solid blue;
+                }
+            </style>
+        <form onclick="alert('form')">FORM
+        <div onclick="alert('div')">DIV
+        <p onclick="alert('p')">P</p>
+        </div>
+        </form>
+        </body>
+    ```    
+    
 20. Regex
     * Regular expressions are patterns used to match character combinations in strings. In          JavaScript, regular expressions are also objects.
 21. ES6 Features
